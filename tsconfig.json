@@ -4,8 +4,7 @@
         "strictNullChecks": true,
         "outFile": "build/bundle.js",
         "module": "AMD",
-        "moduleResolution": "Node",
-        "typeRoots": [ "./node_modules/@types", "./types" ]
+        "moduleResolution": "Node"
     },
     "include": [ "src/**/*" ]
 }
