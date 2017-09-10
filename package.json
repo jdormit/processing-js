@@ -6,9 +6,13 @@
     "build": "make"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jeremy Dormitzer <jeremy.dormitzer@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jdormitzer/processing-js.git"
   }
 }
