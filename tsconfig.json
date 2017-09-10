@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "strictNullChecks": true,
+        "outFile": "build/bundle.js",
+        "module": "AMD",
+        "moduleResolution": "Node",
+        "typeRoots": [ "./node_modules/@types", "./types" ]
+    },
+    "include": [ "src/**/*" ]
+}
