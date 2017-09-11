@@ -1,8 +1,5 @@
-build/bundle.js : clean setup
+build/bundle.js : clean
 	node_modules/.bin/tsc
 
-setup :
-	mkdir -p build
-
 clean :
-	rm -rf build
+	rm -rf public/js/bundle.js

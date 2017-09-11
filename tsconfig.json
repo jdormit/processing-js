@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es5",
         "strictNullChecks": true,
-        "outFile": "build/bundle.js",
+        "outFile": "public/js/bundle.js",
         "module": "AMD",
         "moduleResolution": "Node"
     },
