@@ -19,6 +19,6 @@ function draw() {
                 ellipse(x, y, size, size);
             }
         }
-        setTimeout(function () { return debounce = false; }, 200);
+        setTimeout(function () { return debounce = false; }, 100);
     }
 }

@@ -21,6 +21,6 @@ function draw() {
                 ellipse(x, y, size, size);
             }
         }
-        setTimeout(() => debounce = false, 200);
+        setTimeout(() => debounce = false, 100);
     }
 }
